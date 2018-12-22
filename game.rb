@@ -2,7 +2,7 @@
 class Player
     attr_accessor :counter, :name, :classe, :health, :power
     def initialize(co, n, c, h, pow)
-		@counter = co
+	@counter = co
         @name = n
         @classe = c
         @health = h
